@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adinvinhe a palavra</title>
+</head>
+<body>
+    <h1>ACERTE A PALAVRA SECRETA</h1>
+    <div class="container">
+        <div class="textos">
+            <h3>Digite a palavra secreta: </h3>
+            <input type="password" id="segredo" onkeyup="habilitarBTIncio()">
+            <button id="btInicia" disabled onclick="iniciarOJogo()">Iniciar o Jogo</button>
+            <h3>Digite Uma Letra: <h3>
+                <input id="tentativa" disabled type="text" maxlength="1">
+                <button id="btVerifica" disabled onclick="VerificaCaracter()">Confirma</button>
+                <h2 id="painel"></h2>
+                <h2>Letras Erradas: </h2>
+                <h2></h2>
+                
+                <button id="reset" hidden onclick="reiniciaJogo()">Reiniciar o Jogo</button>
+                <h2>Vidas:</h2>
+
+        </div>
+    </div>
+    
+    <script
+    src="PALAVRA.js">
+    </script>
+
+    <link rel="stylesheet" href="PALAVRA.css">
+    
+</body>
+</html>
