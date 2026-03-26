@@ -63,7 +63,7 @@ h2:last-of-type {
     position: fixed;
     bottom: 20px;
     left: 20px;
-    margin: 0;
+    margin: -20px;
     padding: 10px;
     width: auto;
 }
@@ -72,6 +72,28 @@ h2:last-of-type {
 #reset {
     width: 100%;
     margin-top: 20px;
+}
+
+/*Barra de Vida*/
+#vida-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#vida-container h2 {
+    width: auto;
+    margin: 30px;
+    margin-left: -20px;
+}
+
+#imgVida {
+    max-width: 250px;
+    height: auto;
+    display: block;
 }
 
 /*input redondo junto com os botao*/
