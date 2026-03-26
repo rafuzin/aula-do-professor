@@ -77,4 +77,5 @@ function VerificaCaracter(){
 
     document.getElementById("tentativa").value = "";
     }
+
     
