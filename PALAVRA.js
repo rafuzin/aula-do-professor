@@ -1,6 +1,15 @@
 let letErrada = [];
 let letCorreta = [];
 let exibicao = [];
+let imgvidas = [
+        "0 barras.png",
+        "1 barras.png",
+        "2 barras.png",
+        "3 barras.png",
+        "4 barras.png",
+        "5 barras.png",
+        "6 barras.png"
+    ];
 
 let vida = 6;
 
@@ -57,7 +66,7 @@ function VerificaCaracter(){
         
         vida = vida - 1;
 
-        document.getElementById("vidaImg").src = imagens[vida];
+        document.getElementById("imgVida").src = imgvidas[vida];
 
         if(vida === 0){
             alert("Voce perdeu o jogo");
@@ -66,17 +75,6 @@ function VerificaCaracter(){
         }
     }
 
-
     document.getElementById("tentativa").value = "";
     }
-
-    let vidas = 6 [
-        "0 barras.png",
-        "1 barras.png",
-        "2 barras.png",
-        "3 barras.png",
-        "4 barras.png",
-        "5 barras.png",
-        "6 barras.png"
-    ]
     
